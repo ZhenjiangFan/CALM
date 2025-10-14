@@ -34,7 +34,7 @@
     <img src="Figures/biology_icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">DeepCEF: A Deep Causal Estimation Framework for Complex Biological Systems Integrating Local Scores, Independence Tests, and Relation Attributes</h3>
+  <h3 align="center">CALM: A Causal Analysis Language Model for Tabular Data in Complex Systems with Local Scores, Conditional Independence Tests, and Relation Attributes</h3>
 
   <p align="center">
     An awesome causal relation estimation framework!
@@ -87,9 +87,7 @@
   <img src="Figures/Flowchart.jpg" width="70%" title="Flowchart">
 </div>
 
-Causal relationship identification is a fundamental and complex research challenge that spans multiple disciplines, including biology, epidemiology, economics, and philosophy. Various scoring techniques and independence tests, such as local scores (e.g., Degenerate Gaussian and Bayesian Information Criterion) and independence tests (e.g., Fisher's Z), have been employed in causality estimation. However, these local scores often excel in specific data types or application areas but falter in others, limiting their ability to capture the complexity and heterogeneity of underlying causal mechanisms. For instance, a method may perform well on linear relationships or continuous variables but struggle with discrete variables or non-linear relationships.
-Real-world observational datasets, particularly those generated in complex biological systems, often contain diverse data types and relationships, making it essential to develop a more comprehensive approach. To address this challenge, we propose a novel causal estimation framework that leverages the powerful classification capabilities of deep neural networks to identify causal patterns in pairwise relationships. Our framework integrates multiple local causality estimation scores, independence tests, and variable attributes, allowing it to capture a wide range of causal mechanisms.
-To ensure the framework's robustness and generalizability, we incorporate a diverse range of simulation data and 10 curated real-world datasets into the training procedure. Furthermore, our framework is designed to be extensible, enabling users to easily integrate their own data and additional scores and tests. Our validation results demonstrate that our framework outperforms existing methods in terms of estimation accuracy and precision on both simulation data and real-world biological datasets. By providing a more comprehensive and adaptable approach to causal relationship identification, our framework has the potential to advance research in various fields and improve our understanding of complex biological systems.
+Causal discovery from observational data is fundamental to scientific fields like biology, where controlled experiments are often impractical. However, existing methods, including constraint-based (e.g., PC, causalMGM) and score-based approaches (e.g., NOTEARS), face significant limitations. These include an inability to resolve causal direction, restrictions to linear associations, sensitivity to violations of the faithfulness assumption, and inefficiency in searching vast hypothesis spaces. While large language models (LLMs) offer powerful reasoning capabilities, their application is hindered by a fundamental discrepancy: they are designed for text, while most causal data is tabular. To address these challenges, we introduce CALM, a novel causal analysis language model specifically designed for tabular data in complex systems. CALM leverages a Mamba-based architecture to classify causal patterns from pairwise variable relationships. It integrates a comprehensive suite of evidence, including local causal scores, conditional independence tests, and relational attributes, to capture a wide spectrum of linear, nonlinear, and conditional causal mechanisms. Trained on a diverse corpus of synthetic data (from linear, mixed, and nonlinear models) and 10 real-world biological datasets with rigorously validated causal relationships, our model ensures robustness and generalizability. Empirical evaluation demonstrates that CALM significantly outperforms existing methods in both simulation studies, achieving over 91% accuracy, and in a real-world application identifying causal factors in Hepatitis C virus progression. This work represents a significant step towards accurate and generalizable causal discovery by successfully adapting the pattern recognition capabilities of language models to the intricacies of tabular data.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -348,4 +346,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
