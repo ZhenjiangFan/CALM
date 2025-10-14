@@ -84,7 +84,7 @@
 ## About The Project
 <br>
 <div align="center">
-  <img src="Assets/Figure1.tif" width="70%" title="Flowchart">
+  <img src="Assets/Figure1.png" width="70%" title="Flowchart">
 </div>
 
 Causal discovery from observational data is fundamental to scientific fields like biology, where controlled experiments are often impractical. However, existing methods, including constraint-based (e.g., PC, causalMGM) and score-based approaches (e.g., NOTEARS), face significant limitations. These include an inability to resolve causal direction, restrictions to linear associations, sensitivity to violations of the faithfulness assumption, and inefficiency in searching vast hypothesis spaces. While large language models (LLMs) offer powerful reasoning capabilities, their application is hindered by a fundamental discrepancy: they are designed for text, while most causal data is tabular. To address these challenges, we introduce CALM, a novel causal analysis language model specifically designed for tabular data in complex systems. CALM leverages a Mamba-based architecture to classify causal patterns from pairwise variable relationships. It integrates a comprehensive suite of evidence, including local causal scores, conditional independence tests, and relational attributes, to capture a wide spectrum of linear, nonlinear, and conditional causal mechanisms. Trained on a diverse corpus of synthetic data (from linear, mixed, and nonlinear models) and 10 real-world biological datasets with rigorously validated causal relationships, our model ensures robustness and generalizability. Empirical evaluation demonstrates that CALM significantly outperforms existing methods in both simulation studies, achieving over 91% accuracy, and in a real-world application identifying causal factors in Hepatitis C virus progression. This work represents a significant step towards accurate and generalizable causal discovery by successfully adapting the pattern recognition capabilities of language models to the intricacies of tabular data.
@@ -346,6 +346,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
 
 
