@@ -183,7 +183,7 @@ _Below is an example of how you can instruct your audience on installing and set
 If you would like to use your data to train the model, please follow the steps in the diagram.
 <br>
 <div align="center">
-  <img src="Figures/GitHubModelTraining.png" width="70%" title="ModelTraining">
+  <img src="Assets/ModelTraining.png" width="70%" title="ModelTraining">
 </div>
 
 ### Generate simulation data
@@ -346,6 +346,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
 
 
