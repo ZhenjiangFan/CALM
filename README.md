@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Figures/biology_icon.png" alt="Logo" width="80" height="80">
+    <img src="Assets/Icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">CALM: A Causal Analysis Language Model for Tabular Data in Complex Systems with Local Scores, Conditional Independence Tests, and Relation Attributes</h3>
@@ -346,6 +346,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
 
 
