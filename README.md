@@ -218,7 +218,7 @@ The following diagram illustrates the steps of estimating causal relations from 
 
 <br>
 <div align="center">
-  <img src="Figures/GitHubCausalEstimation.png" width="70%" title="CausalEstimation">
+  <img src="Assets/CausalEstimationProcedure.png" width="70%" title="CausalEstimation">
 </div>
 
 1. The first step is to prepare your data using the following function. For instance, imputing the data if there are missing values.
@@ -346,6 +346,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
 
 
