@@ -154,25 +154,12 @@ Here is a list of the libraries and packages required for this framework.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+TODO... Below is an example of how you can instruct your audience on installing and setting up your app.
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. TODO...
 2. Clone the repo
    ```sh
-   git clone https://github.com/ZhenjiangFan/CausalFrame.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   git clone https://github.com/ZhenjiangFan/CALM.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -251,13 +238,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -308,12 +289,9 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Tetrad](https://www.cmu.edu/dietrich/philosophy/tetrad/)
+* [Py-Tetrad](https://github.com/cmu-phil/py-tetrad)
+* [causal-learn](https://causal-learn.readthedocs.io/en/latest/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -348,6 +326,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Keras-url]: https://keras.io
 [scikit-learn.org]: https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white
 [Scikit-learn-url]: https://scikit-learn.org
+
 
 
 
